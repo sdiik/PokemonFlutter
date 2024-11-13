@@ -11,7 +11,12 @@ class HomeScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     return Scaffold(
       appBar: appBar(context),
-      body: Text("dfdf"),
+      body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          
+        ],
+      ),
     );
   }
 }
